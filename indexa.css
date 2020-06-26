@@ -1,0 +1,321 @@
+*{margin: 0;padding: 0;}
+body{
+    font-size: 15px;
+}
+
+nav{
+	background: #382880c7;
+	height: 70px;
+	width: 100%;
+	overflow: hidden;
+}
+#mainenav{
+	width: 1170px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#manu{
+    width: 622px;
+    float: right;
+    margin-top: -28px;
+}
+
+#manu ul li{display: inline-block;}
+
+#manu ul{font-style: none}
+
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 21px;
+	padding: 8px 8px;
+	transition: all 0.5s;
+}
+
+a:hover{
+	background: red;
+	border-radius: 3px;
+	padding: 12px 12px;
+	color: #08f5dd
+}
+
+#titles{
+	width: 100%;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 39px;
+    font-family: cursive;
+    text-shadow: 3px 3px 33px greenyellow;
+}
+/*----------------------------menu-css-end-------------------------------------*/
+.templtesextion{
+	height: 400px;
+	background:
+	linear-gradient(#00000066,#00000066),
+	linear-gradient(#00000066,#00000066),
+    url(file:///F:/Web%20desinge/project/image/templte.jpg);
+	background-size: cover;
+}
+
+.templtesextion h2{
+	color: #e1e0e5;
+	font-family: arial black;
+	text-align: center;
+	font-size: 34px;
+	margin-left: 424px;
+	margin-top: 0px;
+	padding-top: 106px;
+	text-shadow: 3px 3px 34px white;
+}
+/*----------------------------templte-css-end-------------------------------------*/
+
+section#Servicing{
+	width: 100%;
+	height: 600px;
+	background: #ddd;
+}
+
+#maineservis{
+	width: 1170px;
+	margin: auto;
+	padding-top: 37px;
+	position: relative;
+	z-index: 1;
+}
+
+#maineservis span{
+    font-size: 44px;
+    color: #ff2424;
+    margin: auto;
+    margin-left: 444px;
+	font-family: arial black;
+}
+
+.bloge{
+	width: 315px;
+	background: white;
+	padding: 15px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 33px;
+	z-index: 1;
+	display: inline-block;
+	margin-left: 31px;
+	border: 1px solid #59bc13;
+	transition: all  2s;
+}
+.bloge:hover{
+    width: 300px;
+    background: #ebdddd00;
+    padding: 17px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ff6109;
+    border: 2px solid orange;
+    font-weight: bold;
+    transform: rotate(360deg);
+}
+#Servicing:before{
+	content: "";
+	position: absolute;
+	border-left: 97px solid #0000ff00;
+	width: 93%;
+	height: 94px;
+	bottom: 96px;
+	background: #dddddd;
+	left: -13px;
+	transform: rotate(3deg);
+}
+.
+#Servicing:after{
+	    content: "";
+	    position: absolute;
+	    border-right: 97px solid #0000ff00;
+	    width: 58%;
+	    height: 97px;
+	    bottom: 137px;
+	    background: #dddddd;
+	    left: 473px;
+	    transform: rotate(-4deg);
+}
+
+.bloge img{
+	width: 45px;
+}
+
+.bloge img h2{
+	padding: 5px;
+}
+h2 {
+    padding: 5px;
+    color: #3f80ce;
+    font-family: arial black;
+    font-size: 23px;
+}
+.allbloge{
+	display: inline-block;
+}
+.abdullah{
+	display: inline-block;
+	width: 100%;
+}
+/*----------------------------blog-css-end-------------------------------------*/
+.aboutshop{
+	width: 1170px;
+	height: 557px;
+	background: #fcfdfd;
+	margin: auto;
+	}
+#allshop{width: 1170px;margin: auto;}
+
+span {
+    color: red;
+    font-size: 39px;
+}
+
+#allshop h2 {    padding-top: 48px;
+    font-family: arial black;
+    text-align: center;
+    border-bottom: 2px solid #ebe0e8;
+    width: 299px;
+    margin: auto;
+}
+section.aboutshop:before {
+    content: "";
+    border-left: 691px solid #33b1b100;
+    width: 4%;
+    height: 89px;
+    background: #dddddd;
+    position: absolute;
+    transform: rotate(-7deg);
+    top: 1025px;
+    left: -11px;
+}
+
+section.aboutshop:after{
+    content: "";
+    border-right: 691px solid #dddddd00;
+    width: -7%;
+    height: 91px;
+    background: #dddddd;
+    position: absolute;
+    left: 669px;
+    top: 1027px;
+    transform: rotate(7deg);
+}
+#iamges{width: 322px;border: 2px solid orange;float: left;}
+#iamges img{width: 100%;height: 371px;margin-top: 36px;}
+#owner{
+	color: #d61fc2;
+	font-size: 19px;
+	font-family: arial black;
+	text-transform: uppercase;
+	text-shadow: 0px  -5px 15px #442cff;
+}
+#detials{
+	width: 500px;
+	float: right;
+	margin-right: 155px;
+	margin-top: 32px;
+	background: #dddddd7a;
+	padding: 26px;
+	border: 1px solid #9f9797;
+	border-radius: 11px;
+}
+#detials p {
+    color: #414142;
+    padding-top: 14px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#detials h2 {
+    color: rebeccapurple;
+    font-family: arial black;
+    border-bottom: 3px solid;
+    font-size: 25px;
+    display: inline-block;
+    transition: all 1s
+}
+#detials h2:hover{
+	margin-left: 45px;
+	color: orange
+}
+#detials img{width: 29px;}
+
+/*----------------------------about-css-end-------------------------------------*/
+
+footer{
+	background: #222;
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+}
+#allfooter #sms{width: 469px;margin: auto;float: right;margin-top: 44px;}
+
+#allfooter img {
+    width: 24px;
+    border-radius: 12px;
+    padding-top: 5px;
+}
+#allfooter span {
+    width: 27px;
+    color: #c0c0c6;
+    font-size: 17px;
+}
+#abire{width: 170px;float: left;display: table-caption;margin-left: 326px;}
+
+#abire h2 {
+    color: #fff4f4;
+    font-size: 35px;
+    padding-top: 50px;
+    border-bottom: 2px solid #ddd;
+}
+#enters{
+	width: 240px;
+}
+input[type="name"] {
+    padding: 8px;
+    margin: 0px;
+    width: 100%;
+}
+
+input[type="number"] {
+    padding: 9px;
+    width: 100%;
+}
+
+input[type="email"] {
+    padding: 9px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 107%;
+    padding: 7px;
+    background: #64c0ff;
+}
+
+textarea {
+}
+
+textarea {
+    width: 105%;
+}
+.copy{
+	    width: 100%;
+	    height: 36px;
+	    color: #ebebeb;
+	    background: #444;
+	    text-transform: uppercase;
+}
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
